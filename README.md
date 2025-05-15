@@ -1,5 +1,7 @@
-# Firebase Studio
+# Recipe Generator
 
-This is a NextJS starter in Firebase Studio.
+Enter the ingredients which is left to you it will suggest the best recipe to you.
 
-To get started, take a look at src/app/page.tsx.
+# Recipe Teller
+
+If you want to know any specific recipe of any food just enter the name of dish and it will give you the recipe.
