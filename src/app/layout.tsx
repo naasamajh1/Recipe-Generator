@@ -24,12 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <body 
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          geistSans.variable, 
-          geistMono.variable
+          "min-h-screen bg-background font-sans antialiased"
         )}
       >
         {children}
